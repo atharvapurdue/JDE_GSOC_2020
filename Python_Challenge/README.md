@@ -32,5 +32,5 @@ it can theoretically compute anything that can be computed.
 
 A real life application of Game of Life is Image restoration on Triangular Tessellations
 
-![Image Restoration](link-to-image)
+![Image Restoration](https://github.com/sparklytopaz/JDE_GSOC_2020/blob/master/Python_Challenge/1.jpg)
 
