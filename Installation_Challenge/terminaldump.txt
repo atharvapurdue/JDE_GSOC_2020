@@ -1,0 +1,2932 @@
+bash: /opt/jderobot/share/jderobot/gazebo/gazebo-assets-setup.sh: No such file or directory
+bash: /home/topaz/catkin_ws/devel/setup.bash: No such file or directory
+topaz@topaz-HP-Pavilion-Notebook:~$ gazebo
+topaz@topaz-HP-Pavilion-Notebook:~$ gazebo
+topaz@topaz-HP-Pavilion-Notebook:~$ ls
+a.out      eProsima_FastCDR-1.0.8-Linux       main.cpp  Public
+catkin_ws  eProsima_FastRTPS-1.7.1-Linux      Music     teamviewer_amd64.deb
+Desktop    examples.desktop                   path.c    Templates
+Documents  input.txt                          path.cpp  Videos
+Downloads  install_geographiclib_datasets.sh  Pictures
+topaz@topaz-HP-Pavilion-Notebook:~$ cd catkin_ws/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws$ ls
+Academy  src
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws$ cd Academy/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ ls
+docs  exercises  README.md
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ cd exercises/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises$ ls
+'2D visual odometry with RGBD'   drone_cat_mouse         labyrinth_escape
+ 3d_reconstruction               drone_hangar            laser_loc
+ amazon_warehouse                follow_face             obstacle_avoidance
+ autopark                        follow_line             position_control
+ bump_and_go                     follow_line_turtlebot   rescue_people
+ car_junction                    follow_road             vacuum_cleaner
+ chrono                          follow_turtlebot        vacuum_cleaner_loc
+ color_filter                    global_navigation       visual_lander
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises$ ROS_HOME=`pwd` roslaunch amazonrobot_1_warehouse.launch
+RLException: [amazonrobot_1_warehouse.launch] is not a launch file name
+The traceback for the exception was written to the log file
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises$ cd ..
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ ls
+docs  exercises  README.md
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ cd docs/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/docs$ ls
+assets       Gemfile       LICENSE            _portfolio  staticman.yml
+banner.js    Gemfile.lock  package.json       Rakefile
+_config.yml  _includes     package-lock.json  README.md
+_data        _layouts      _pages             _sass
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/docs$ cd ..
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ ls
+docs  exercises  README.md
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ nano README.md 
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ source /opt/jderobot/share/jderobot/gazebo/assets-setup.sh
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ echo 'source /opt/jderobot/share/jderobot/gazebo/gazebo-setup.sh' >> ~/.bashrc
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ echo 'source /opt/jderobot/share/jderobot/gazebo/assets-setup.sh' >> ~/.bashrc
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ source ~/.bashrc
+bash: /opt/jderobot/share/jderobot/gazebo/gazebo-assets-setup.sh: No such file or directory
+bash: /home/topaz/catkin_ws/devel/setup.bash: No such file or directory
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ cd ..
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws$ ls
+Academy  src
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws$ cd src
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src$ ;ls
+bash: syntax error near unexpected token `;'
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src$ ls
+Firmware  mavlink_sitl_gazebo
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src$ cd Firmware/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src/Firmware$ ;s
+bash: syntax error near unexpected token `;'
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src/Firmware$ ls
+appveyor.yml        Firmware.sublime-project  posix-configs
+boards              integrationtests          PULL_REQUEST_TEMPLATE.md
+cmake               Jenkinsfile               README.md
+CMakeLists.txt      launch                    ROMFS
+CODE_OF_CONDUCT.md  LICENSE                   src
+CONTRIBUTING.md     Makefile                  test
+CTestConfig.cmake   mavlink                   test_data
+Documentation       msg                       Tools
+eclipse.cproject    package.xml               validation
+eclipse.project     platforms
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src/Firmware$ cd launch/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src/Firmware/launch$ ls
+mavros_posix_sitl.launch          pub_test.launch
+multi_uav_mavros_sitl.launch      px4.launch
+multi_uav_mavros_sitl_sdf.launch  single_vehicle_spawn.launch
+posix_sitl.launch                 single_vehicle_spawn_sdf.launch
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src/Firmware/launch$ ROS_HOME=`pwd` roslaunch amazonrobot_1_warehouse.launch 
+RLException: [amazonrobot_1_warehouse.launch] is not a launch file name
+The traceback for the exception was written to the log file
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src/Firmware/launch$ cd ..
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src/Firmware$ ls
+appveyor.yml        Firmware.sublime-project  posix-configs
+boards              integrationtests          PULL_REQUEST_TEMPLATE.md
+cmake               Jenkinsfile               README.md
+CMakeLists.txt      launch                    ROMFS
+CODE_OF_CONDUCT.md  LICENSE                   src
+CONTRIBUTING.md     Makefile                  test
+CTestConfig.cmake   mavlink                   test_data
+Documentation       msg                       Tools
+eclipse.cproject    package.xml               validation
+eclipse.project     platforms
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src/Firmware$ cd ..
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src$ ls
+Firmware  mavlink_sitl_gazebo
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/src$ cd ..
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws$ ls
+Academy  src
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws$ cd Academy/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ ls
+docs  exercises  README.md
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ cd exercises/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises$ ls
+'2D visual odometry with RGBD'   drone_cat_mouse         labyrinth_escape
+ 3d_reconstruction               drone_hangar            laser_loc
+ amazon_warehouse                follow_face             obstacle_avoidance
+ autopark                        follow_line             position_control
+ bump_and_go                     follow_line_turtlebot   rescue_people
+ car_junction                    follow_road             vacuum_cleaner
+ chrono                          follow_turtlebot        vacuum_cleaner_loc
+ color_filter                    global_navigation       visual_lander
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises$ python2 amazonWarehouse.py amazonMap.conf amazonConf.yml
+python2: can't open file 'amazonWarehouse.py': [Errno 2] No such file or directory
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises$ cd a
+amazon_warehouse/ autopark/         
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises$ cd amazon_warehouse/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises/amazon_warehouse$ ls
+amazonConf.yml      generateGUI  launch               README.md        sensors
+amazonMap.conf      gui          MyAlgorithm.py       resources
+amazonWarehouse.py  interfaces   pallets_coords.yaml  resources_rc.py
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises/amazon_warehouse$ python2 amazonWarehouse.py amazonMap.conf amazonConf.yml
+loading Config file ./amazonConf.yml
+Unable to register with master node [http://localhost:11311]: master may not be running yet. Will keep trying.
+    
+^C
+^Z
+[1]+  Stopped                 python2 amazonWarehouse.py amazonMap.conf amazonConf.yml
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises/amazon_warehouse$ python2 amazonWarehouse.py amazonMap.conf amazonConf.yml
+loading Config file ./amazonConf.yml
+Unable to register with master node [http://localhost:11311]: master may not be running yet. Will keep trying.
+
+^X
+^C
+
+Traceback (most recent call last):
+  File "amazonWarehouse.py", line 53, in <module>
+    jdrc= comm.init(cfg, 'Amazon')
+  File "/opt/jderobot/lib/python2.7/comm/__init__.py", line 16, in init
+    return Communicator(config, prefix)
+  File "/opt/jderobot/lib/python2.7/comm/communicator.py", line 54, in __init__
+    self.__node = rospy.init_node(ymlNode["NodeName"], anonymous=True)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/client.py", line 336, in init_node
+    raise rospy.exceptions.ROSInitException("Failed to initialize time. Please check logs for additional details")
+rospy.exceptions.ROSInitException: Failed to initialize time. Please check logs for additional details
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises/amazon_warehouse$ 
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises/amazon_warehouse$ 
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises/amazon_warehouse$ python2 amazonWarehouse.py amazonMap.conf amazonConf.yml
+loading Config file ./amazonConf.yml
+Unable to register with master node [http://localhost:11311]: master may not be running yet. Will keep trying.
+Publishing Amazon.Motors with ROS messages
+Receiving Amazon.Pose3D from ROS messages
+Receiving Amazon.Laser  LaserData from ROS messages
+
+
+
+bash: /opt/jderobot/share/jderobot/gazebo/gazebo-assets-setup.sh: No such file or directory
+bash: /home/topaz/catkin_ws/devel/setup.bash: No such file or directory
+topaz@topaz-HP-Pavilion-Notebook:~$ ls
+a.out      eProsima_FastCDR-1.0.8-Linux       main.cpp  Public
+catkin_ws  eProsima_FastRTPS-1.7.1-Linux      Music     teamviewer_amd64.deb
+Desktop    examples.desktop                   path.c    Templates
+Documents  input.txt                          path.cpp  terminaldump.txt
+Downloads  install_geographiclib_datasets.sh  Pictures  Videos
+topaz@topaz-HP-Pavilion-Notebook:~$ cd catkin_ws/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws$ ls
+Academy  src
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws$ ed Academy/
+Is a directory
+  
+?
+
+?
+y
+?
+^Z
+[1]+  Stopped                 ed Academy/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws$ 
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws$ cd Academy/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ ls
+docs  exercises  README.md
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy$ cd exercises/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises$ ls
+'2D visual odometry with RGBD'   drone_cat_mouse         labyrinth_escape
+ 3d_reconstruction               drone_hangar            laser_loc
+ amazon_warehouse                follow_face             obstacle_avoidance
+ autopark                        follow_line             position_control
+ bump_and_go                     follow_line_turtlebot   rescue_people
+ car_junction                    follow_road             vacuum_cleaner
+ chrono                          follow_turtlebot        vacuum_cleaner_loc
+ color_filter                    global_navigation       visual_lander
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises$ cd a
+bash: cd: a: No such file or directory
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises$ cd amazon_warehouse/
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises/amazon_warehouse$ ls
+amazonConf.yml      gui             MyAlgorithm.pyc      resources_rc.py
+amazonMap.conf      interfaces      pallets_coords.yaml  resources_rc.pyc
+amazonWarehouse.py  launch          README.md            sensors
+generateGUI         MyAlgorithm.py  resources
+topaz@topaz-HP-Pavilion-Notebook:~/catkin_ws/Academy/exercises/amazon_warehouse$ python2 amazonWarehouse.py amazonMap.conf amazonConf.yml
+loading Config file ./amazonConf.yml
+Publishing Amazon.Motors with ROS messages
+Receiving Amazon.Pose3D from ROS messages
+Receiving Amazon.Laser  LaserData from ROS messages
+('Map Angle:', 0)
+(282, 400)
+('RX:', 0.00014214272236850707, 'RY:', 0.0016231760811116938)
+('GX:', 200, 'GY:', 141)
+EXECUTING GOAL
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+EXECUTING GOAL
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Running
+Platform Lifted!
+Running
+Platform Dropped!
+Pick new pallet button pressed
+Platform Lifted!
+Platform Dropped!
+Platform Lifted!
+Platform Dropped!
+EXECUTING GOAL
+
+
