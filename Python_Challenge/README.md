@@ -6,7 +6,7 @@ Here I have uploaded my solution which generates a random life pattern in a 64x6
 
 The iterations are also stored as png files to view later.
 
-
+Update - I have also created game of life for playing on the terminal itself. It also has test cases as per task requirement.
 ## Rules
 
 The rules of the game are simple, and describe the evolution of the
